@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AliSalmeh_ProjectWeek4.BMI_Refactor
+namespace AliSalmeh_ProjectWeek5_BMI
 {
     class Program
     {
