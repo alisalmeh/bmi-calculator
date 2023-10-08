@@ -28,11 +28,11 @@ namespace AliSalmeh_ProjectWeek5_BMI
             {
                 _result = Status.Underweight;
             }
-            else if (_bmiResult > 18.4 && _bmiResult <= 24.9)
+            else if (_bmiResult <= 24.9)
             {
                 _result = Status.Normal;
             }
-            else if (_bmiResult > 24.9 && _bmiResult <= 39.9)
+            else if (_bmiResult <= 29.9)
             {
                 _result = Status.Overweight;
             }
@@ -45,7 +45,7 @@ namespace AliSalmeh_ProjectWeek5_BMI
         public override string ToString()
         {
             Console.WriteLine();
-            return $"Dear {Name}, \n\t Your BMI score is: {_bmiResult}; \n\t Your status is: {_result};";
+            return $"Dear {Name},\n\t Your BMI score is: {_bmiResult};\n\t Your status is: {_result};";
         }
     }
 }
